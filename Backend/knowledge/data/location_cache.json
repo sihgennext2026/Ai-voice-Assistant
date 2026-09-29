@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "generated_at": "2026-09-29T01:01:49+00:00",
+    "note": "Snapshot of live API results for the demo case. Distances: OpenRouteService driving. Demand: OpenStreetMap via Overpass (data (c) OpenStreetMap contributors, ODbL)."
+  },
+  "origin": {
+    "name": "Sanganer, Jaipur",
+    "lat": 26.8146217,
+    "lon": 75.7731874,
+    "source": "registered case record"
+  },
+  "distances": {
+    "opp-training-pratap-nagar": {
+      "km": 7.7,
+      "min": 11,
+      "source": "openrouteservice"
+    },
+    "opp-apparel-sitapura": {
+      "km": 10.2,
+      "min": 13,
+      "source": "openrouteservice"
+    },
+    "opp-garment-cluster-vki": {
+      "km": 25.9,
+      "min": 22,
+      "source": "openrouteservice"
+    }
+  },
+  "osm_demand": {
+    "count": 3,
+    "radius_km": 3.0,
+    "elements": [
+      {
+        "osm_id": "node/12596410733",
+        "name": null,
+        "lat": 26.8146077,
+        "lon": 75.7669288,
+        "km": 0.6
+      },
+      {
+        "osm_id": "node/12596427876",
+        "name": null,
+        "lat": 26.8149912,
+        "lon": 75.7640275,
+        "km": 0.9
+      },
+      {
+        "osm_id": "node/12596427877",
+        "name": null,
+        "lat": 26.8140439,
+        "lon": 75.7685843,
+        "km": 0.5
+      }
+    ]
+  }
+}

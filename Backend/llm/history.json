@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "Oh, come on."
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I encountered an internal error while processing your request."
+  },
+  {
+    "role": "user",
+    "content": "I'm alright"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, I encountered an internal error while processing your request."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "source": "demo",
+    "note": "Deterministic demo cases. The registered details stand in for a beneficiary case file; the scripted turns are used only when the live LLM fails or in DEMO_MODE phrasing."
+  },
+  "cases": {
+    "demo-tailoring-001": {
+      "registered": {
+        "age": 32,
+        "location": {
+          "name": "Sanganer, Jaipur",
+          "lat": 26.8146217,
+          "lon": 75.7731874,
+          "source": "registered case record"
+        }
+      },
+      "greeting": "Namaste. Tell me a little about yourself: what work do you know, and what are you hoping for?",
+      "sample_utterances": [
+        "I know basic tailoring, but I want a stable income. I also can't travel far from my village.",
+        "No, I learned it through experience."
+      ]
+    }
+  }
+}

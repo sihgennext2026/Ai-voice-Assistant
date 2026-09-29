@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Prototype skill taxonomy. Replace with an official skill taxonomy (e.g. NSQF/NCVET) in production."
+  },
+  "skills": [
+    {
+      "id": "tailoring",
+      "label": "Tailoring",
+      "sector": "apparel",
+      "aliases": ["tailoring", "tailor", "stitching", "sewing", "silai", "dress making", "dressmaking", "blouse stitching", "alteration"]
+    },
+    {
+      "id": "embroidery",
+      "label": "Embroidery",
+      "sector": "apparel",
+      "aliases": ["embroidery", "zari", "hand embroidery", "machine embroidery", "kadhai"]
+    },
+    {
+      "id": "cooking",
+      "label": "Cooking / Food Preparation",
+      "sector": "food_processing",
+      "aliases": ["cooking", "cook", "catering", "pickle", "papad", "food preparation", "baking", "snacks"]
+    },
+    {
+      "id": "animal_husbandry",
+      "label": "Animal Husbandry",
+      "sector": "agriculture",
+      "aliases": ["dairy", "cattle", "goat", "livestock", "animal husbandry", "milking", "poultry"]
+    },
+    {
+      "id": "farming",
+      "label": "Farming",
+      "sector": "agriculture",
+      "aliases": ["farming", "farm work", "agriculture", "cultivation", "kheti", "crops"]
+    },
+    {
+      "id": "sales",
+      "label": "Sales / Customer Handling",
+      "sector": "retail",
+      "aliases": ["sales", "selling", "shop", "shopkeeping", "customer service", "retail"]
+    },
+    {
+      "id": "computer_basics",
+      "label": "Basic Computer Use",
+      "sector": "it_services",
+      "aliases": ["computer", "typing", "data entry", "ms office", "excel"]
+    }
+  ],
+  "levels": {
+    "basic": 0.85,
+    "intermediate": 1.0,
+    "advanced": 1.0
+  }
+}

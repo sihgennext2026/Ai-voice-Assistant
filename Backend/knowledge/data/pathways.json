@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Illustrative livelihood pathways. Scoring weights live in matching/engine.py; data here is replaceable."
+  },
+  "pathways": [
+    {
+      "id": "certified-tailoring",
+      "name": "Certified Tailoring",
+      "sector": "apparel",
+      "core_skills": ["tailoring"],
+      "related_skills": ["embroidery"],
+      "target_level": "intermediate",
+      "work_modes": ["wage_employment", "self_employment"],
+      "outcome_tags": ["stable_income", "skill_growth", "own_business"],
+      "required_qualification": "tailoring-certificate",
+      "training_program": "tailoring-certification-course",
+      "opportunity_types": ["apparel_unit", "tailoring_demand"],
+      "job_role": "certified-tailor",
+      "stages": [
+        {"key": "training", "label": "Certified tailoring training"},
+        {"key": "opportunity", "label": "Nearby apparel opportunity"},
+        {"key": "outcome", "label": "Employment / Enterprise"}
+      ],
+      "outcome_label": "Local apparel employment / enterprise"
+    },
+    {
+      "id": "home-tailoring-enterprise",
+      "name": "Home-based Tailoring Enterprise",
+      "sector": "apparel",
+      "core_skills": ["tailoring"],
+      "related_skills": ["embroidery"],
+      "target_level": "intermediate",
+      "work_modes": ["self_employment"],
+      "outcome_tags": ["own_business", "flexible_hours"],
+      "required_qualification": "entrepreneurship-basics",
+      "training_program": "micro-enterprise-course",
+      "opportunity_types": ["tailoring_demand"],
+      "job_role": "home-tailoring-business",
+      "stages": [
+        {"key": "training", "label": "Micro-enterprise basics"},
+        {"key": "opportunity", "label": "Local customer demand"},
+        {"key": "outcome", "label": "Home-based enterprise"}
+      ],
+      "outcome_label": "Home-based tailoring business"
+    },
+    {
+      "id": "garment-factory-operator",
+      "name": "Garment Factory Operator",
+      "sector": "apparel",
+      "core_skills": ["tailoring"],
+      "related_skills": ["embroidery"],
+      "target_level": "intermediate",
+      "work_modes": ["wage_employment"],
+      "outcome_tags": ["stable_income", "higher_income"],
+      "required_qualification": null,
+      "training_program": null,
+      "opportunity_types": ["garment_cluster"],
+      "job_role": "sewing-machine-operator",
+      "stages": [
+        {"key": "training", "label": "On-the-job induction"},
+        {"key": "opportunity", "label": "City garment cluster"},
+        {"key": "outcome", "label": "Factory employment"}
+      ],
+      "outcome_label": "Factory employment in an industrial cluster"
+    },
+    {
+      "id": "food-micro-enterprise",
+      "name": "Food Processing Micro-enterprise",
+      "sector": "food_processing",
+      "core_skills": ["cooking"],
+      "related_skills": [],
+      "target_level": "basic",
+      "work_modes": ["self_employment"],
+      "outcome_tags": ["own_business", "flexible_hours"],
+      "required_qualification": "food-processing-certificate",
+      "training_program": "food-processing-course",
+      "opportunity_types": ["training_centre"],
+      "job_role": "food-micro-entrepreneur",
+      "stages": [
+        {"key": "training", "label": "Food processing & hygiene training"},
+        {"key": "opportunity", "label": "Local market access"},
+        {"key": "outcome", "label": "Food micro-enterprise"}
+      ],
+      "outcome_label": "Home-based food business"
+    },
+    {
+      "id": "dairy-enterprise",
+      "name": "Dairy Enterprise",
+      "sector": "agriculture",
+      "core_skills": ["animal_husbandry"],
+      "related_skills": ["farming"],
+      "target_level": "basic",
+      "work_modes": ["self_employment"],
+      "outcome_tags": ["stable_income", "own_business"],
+      "required_qualification": "dairy-certificate",
+      "training_program": "dairy-course",
+      "opportunity_types": ["training_centre"],
+      "job_role": "dairy-entrepreneur",
+      "stages": [
+        {"key": "training", "label": "Dairy farming training"},
+        {"key": "opportunity", "label": "Village milk collection"},
+        {"key": "outcome", "label": "Dairy enterprise"}
+      ],
+      "outcome_label": "Village dairy enterprise"
+    },
+    {
+      "id": "retail-sales-associate",
+      "name": "Retail Sales Associate",
+      "sector": "retail",
+      "core_skills": ["sales"],
+      "related_skills": ["computer_basics"],
+      "target_level": "basic",
+      "work_modes": ["wage_employment"],
+      "outcome_tags": ["stable_income"],
+      "required_qualification": "retail-certificate",
+      "training_program": "retail-course",
+      "opportunity_types": ["training_centre"],
+      "job_role": "retail-sales-associate",
+      "stages": [
+        {"key": "training", "label": "Retail sales training"},
+        {"key": "opportunity", "label": "Nearby retail store"},
+        {"key": "outcome", "label": "Salaried employment"}
+      ],
+      "outcome_label": "Salaried retail employment"
+    },
+    {
+      "id": "data-entry-operator",
+      "name": "Data Entry Operator",
+      "sector": "it_services",
+      "core_skills": ["computer_basics"],
+      "related_skills": [],
+      "target_level": "basic",
+      "work_modes": ["wage_employment"],
+      "outcome_tags": ["stable_income"],
+      "required_qualification": null,
+      "training_program": null,
+      "opportunity_types": ["garment_cluster"],
+      "job_role": "data-entry-operator",
+      "stages": [
+        {"key": "training", "label": "Computer skills refresher"},
+        {"key": "opportunity", "label": "Office / back-office role"},
+        {"key": "outcome", "label": "Salaried employment"}
+      ],
+      "outcome_label": "Salaried office employment"
+    }
+  ]
+}

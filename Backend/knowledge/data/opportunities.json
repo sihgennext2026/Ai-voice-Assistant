@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "note": "Each entry carries its own source. 'illustrative' = named real area, hypothetical facility. 'openstreetmap' entries are merged in from location_cache.json at runtime."
+  },
+  "opportunities": [
+    {
+      "id": "opp-training-pratap-nagar",
+      "type": "training_centre",
+      "sectors": ["apparel", "food_processing", "retail", "agriculture"],
+      "name": "Skill Training Centre",
+      "area": "Pratap Nagar, Jaipur",
+      "lat": 26.8066363,
+      "lon": 75.827838,
+      "source": "illustrative"
+    },
+    {
+      "id": "opp-apparel-sitapura",
+      "type": "apparel_unit",
+      "sectors": ["apparel"],
+      "name": "Apparel Manufacturing Unit",
+      "area": "Sitapura Industrial Area, Jaipur",
+      "lat": 26.776503,
+      "lon": 75.8354684,
+      "source": "illustrative"
+    },
+    {
+      "id": "opp-garment-cluster-vki",
+      "type": "garment_cluster",
+      "sectors": ["apparel", "it_services"],
+      "name": "Garment Export Cluster",
+      "area": "Vishwakarma Industrial Area, Jaipur",
+      "lat": 26.9921975,
+      "lon": 75.7840554,
+      "source": "illustrative"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Illustrative, data-driven eligibility rules evaluated deterministically in Python. Not official scheme criteria."
+  },
+  "operators": ["gte", "lte", "in", "is_not", "has_any_skill"],
+  "rules": [
+    {
+      "id": "min-age-working",
+      "applies_to": ["*"],
+      "field": "age",
+      "op": "gte",
+      "value": 18,
+      "hard": true,
+      "pass_label": "Adult beneficiary",
+      "fail_label": "Beneficiary must be 18 or older"
+    },
+    {
+      "id": "apparel-needs-sewing-base",
+      "applies_to": ["certified-tailoring", "home-tailoring-enterprise", "garment-factory-operator"],
+      "field": "skills",
+      "op": "has_any_skill",
+      "value": ["tailoring", "embroidery"],
+      "hard": true,
+      "pass_label": "Has foundational sewing skills",
+      "fail_label": "Requires foundational sewing skills"
+    },
+    {
+      "id": "retail-min-education",
+      "applies_to": ["retail-sales-associate"],
+      "field": "education_level",
+      "op": "gte",
+      "value": 10,
+      "hard": true,
+      "pass_label": "Meets education requirement",
+      "fail_label": "Requires Class 10 education"
+    },
+    {
+      "id": "data-entry-min-education",
+      "applies_to": ["data-entry-operator"],
+      "field": "education_level",
+      "op": "gte",
+      "value": 12,
+      "hard": true,
+      "pass_label": "Meets education requirement",
+      "fail_label": "Requires Class 12 education"
+    },
+    {
+      "id": "data-entry-computer",
+      "applies_to": ["data-entry-operator"],
+      "field": "skills",
+      "op": "has_any_skill",
+      "value": ["computer_basics"],
+      "hard": false,
+      "pass_label": "Has computer skills",
+      "fail_label": "Computer skills would need training"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Illustrative job roles. Replace with verified labour-market data in production."
+  },
+  "job_roles": [
+    {"id": "certified-tailor", "label": "Certified tailor", "sector": "apparel", "work_mode": "wage_employment"},
+    {"id": "home-tailoring-business", "label": "Home-based tailoring business", "sector": "apparel", "work_mode": "self_employment"},
+    {"id": "sewing-machine-operator", "label": "Sewing machine operator", "sector": "apparel", "work_mode": "wage_employment"},
+    {"id": "food-micro-entrepreneur", "label": "Food micro-entrepreneur", "sector": "food_processing", "work_mode": "self_employment"},
+    {"id": "dairy-entrepreneur", "label": "Dairy entrepreneur", "sector": "agriculture", "work_mode": "self_employment"},
+    {"id": "retail-sales-associate", "label": "Retail sales associate", "sector": "retail", "work_mode": "wage_employment"},
+    {"id": "data-entry-operator", "label": "Data entry operator", "sector": "it_services", "work_mode": "wage_employment"}
+  ]
+}

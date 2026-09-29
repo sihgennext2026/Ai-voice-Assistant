@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Illustrative programmes. They are NOT specific government schemes; map to verified scheme data in production."
+  },
+  "programs": [
+    {
+      "id": "tailoring-certification-course",
+      "label": "Certified tailoring training",
+      "qualification": "tailoring-certificate",
+      "duration": "about 3 months",
+      "mode": "classroom, near home",
+      "opportunity_type": "training_centre",
+      "bridges_gaps": ["formal tailoring certification"]
+    },
+    {
+      "id": "micro-enterprise-course",
+      "label": "Micro-enterprise & bookkeeping basics",
+      "qualification": "entrepreneurship-basics",
+      "duration": "about 2 weeks",
+      "mode": "classroom or community group",
+      "opportunity_type": "training_centre",
+      "bridges_gaps": ["business & bookkeeping basics"]
+    },
+    {
+      "id": "food-processing-course",
+      "label": "Food processing & hygiene training",
+      "qualification": "food-processing-certificate",
+      "duration": "about 1 month",
+      "mode": "classroom",
+      "opportunity_type": "training_centre",
+      "bridges_gaps": ["food safety certification"]
+    },
+    {
+      "id": "dairy-course",
+      "label": "Dairy farming training",
+      "qualification": "dairy-certificate",
+      "duration": "about 2 weeks",
+      "mode": "field-based",
+      "opportunity_type": "training_centre",
+      "bridges_gaps": ["dairy management training"]
+    },
+    {
+      "id": "retail-course",
+      "label": "Retail sales training",
+      "qualification": "retail-certificate",
+      "duration": "about 2 months",
+      "mode": "classroom",
+      "opportunity_type": "training_centre",
+      "bridges_gaps": ["retail sales certification"]
+    }
+  ]
+}

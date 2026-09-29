@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "source": "demo",
+    "verified": false,
+    "note": "Reference qualification names used for explanation only. Codes and official requirements must be verified against the NCVET/NQR register before production use."
+  },
+  "qualifications": [
+    {
+      "id": "tailoring-certificate",
+      "label": "Tailoring certification (short-term, NSQF-aligned)",
+      "sector": "apparel",
+      "certifies_skills": ["tailoring"]
+    },
+    {
+      "id": "entrepreneurship-basics",
+      "label": "Micro-enterprise basics certificate",
+      "sector": "cross_sector",
+      "certifies_skills": []
+    },
+    {
+      "id": "food-processing-certificate",
+      "label": "Food processing & hygiene certification",
+      "sector": "food_processing",
+      "certifies_skills": ["cooking"]
+    },
+    {
+      "id": "dairy-certificate",
+      "label": "Dairy farming certification",
+      "sector": "agriculture",
+      "certifies_skills": ["animal_husbandry"]
+    },
+    {
+      "id": "retail-certificate",
+      "label": "Retail sales certification",
+      "sector": "retail",
+      "certifies_skills": ["sales"]
+    }
+  ]
+}
